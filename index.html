@@ -3,26 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <title>Chatbot Voiceflow</title>
+  <style>
+    body, html {
+      margin: 0; padding: 0; height: 100%;
+      font-family: Arial, sans-serif;
+    }
+  </style>
 </head>
 <body>
-  <script type="text/javascript">
-    window.voiceflow = window.voiceflow || {};
-    window.voiceflow.chat = window.voiceflow.chat || {};
-    window.voiceflow.chat.load = function (options) {
-      // codice per caricare il chatbot
-      // da sostituire con quello fornito da Voiceflow
-    };
-  </script>
 
-  <script type="text/javascript" src="https://cdn.voiceflow.com/widget/bundle.mjs"></script>
+<script src="https://cdn.voiceflow.com/widget/bundle.js"></script>
 
-  <script type="text/javascript">
-    window.voiceflow.chat.load({
-      verify: { projectID: "689670a50a2a1fc690d9e4db" },
-      assistant: {
-        avatar: "https://drive.google.com/file/d/1Vbx-BnpLq_mQ96yW4OmbmGt_42AeNN3r/view?usp=sharing"
-      }
-    });
-  </script>
+<script>
+  window.voiceflow?.chat?.load({
+    verify: { projectID: "https://creator.voiceflow.com/prototype/689670a50a2a1fc690d9e4dc" },
+    assistant: {
+      avatar: "https://drive.google.com/file/d/1Vbx-BnpLq_mQ96yW4OmbmGt_42AeNN3r/view?usp=sharing"
+    }
+  });
+</script>
+
 </body>
 </html>
+
