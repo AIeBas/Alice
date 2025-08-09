@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chatbot Voiceflow</title>
+</head>
+<body>
+  <script type="text/javascript">
+    window.voiceflow = window.voiceflow || {};
+    window.voiceflow.chat = window.voiceflow.chat || {};
+    window.voiceflow.chat.load = function (options) {
+      // codice per caricare il chatbot
+      // da sostituire con quello fornito da Voiceflow
+    };
+  </script>
+
+  <script type="text/javascript" src="https://cdn.voiceflow.com/widget/bundle.mjs"></script>
+
+  <script type="text/javascript">
+    window.voiceflow.chat.load({
+      verify: { projectID: "689670a50a2a1fc690d9e4db" },
+      assistant: {
+        avatar: "https://drive.google.com/file/d/1Vbx-BnpLq_mQ96yW4OmbmGt_42AeNN3r/view?usp=sharing"
+      }
+    });
+  </script>
+</body>
+</html>
